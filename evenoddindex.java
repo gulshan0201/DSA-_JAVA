@@ -11,6 +11,8 @@ public class evenindex{
     input(arr);
 
     printEvenIndex(arr);
+
+    printOddIndex(arr);
    }
 
    public static void input(int[] arr){
@@ -21,6 +23,13 @@ public class evenindex{
 
    public static void printEvenIndex(int[] arr){
     for(int i=0; i<arr.length; i+=2){
+      System.out.print(arr[i] + " ");
+    }
+    System.out.println();
+   }
+
+   public static void printOddIndex(int[] arr){
+    for(int i=1; i<arr.length; i+=2){
       System.out.print(arr[i] + " ");
     }
     System.out.println();
