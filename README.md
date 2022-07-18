@@ -1,3 +1,3 @@
 ## DSA-_JAVA
 
-!. These are some complex pattern question which are solved using java. 
+1. Some simple programs uisng java for interview
